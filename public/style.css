@@ -1,0 +1,101 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+#search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.filters {
+    margin: 20px 0;
+}
+
+#difficulty-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+
+#difficulty-filters label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+#search-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#search-button:hover {
+    background-color: #2980b9;
+}
+
+#results-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#results-list li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#results-list li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+    min-width: 60px;
+    text-align: center;
+}
+
+.source-leetcode {
+    background-color: #ffa116;
+}
+
+.source-codeforces {
+    background-color: #1f8acb;
+}
